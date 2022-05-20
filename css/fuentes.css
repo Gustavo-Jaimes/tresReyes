@@ -1,0 +1,8 @@
+@font-face {
+    font-family: segoe;
+    src: url(../fuentes/Segoe\ UI.ttf);
+    font-family: segoeSemi;
+    src: url(../fuentes/Segoe\ UI\ Italic.ttf);
+    font-family: BellItalica;
+    src: url(../fuentes/BellMTItalic.ttf);
+}
