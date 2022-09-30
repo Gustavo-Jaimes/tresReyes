@@ -1,0 +1,898 @@
+/* ESTILOS PAGINA INICIO Y FOOTER */
+.inicio .banner-principal .video{
+    height: 60em;
+    background-color: black;
+}
+.inicio .banner-principal{
+    margin-bottom: .9em;
+}
+.inicio .banner-principal .letrero p{
+    font-family: BellItalica; 
+    font-size: 2em; 
+    margin-top: -16.3em; 
+    color: black; 
+    font-weight: bold;
+    background-color: white; 
+    opacity: 0.7;
+    padding: 0 .5em;
+}
+.inicio .banner-principal .banner a{
+    background-color: #053321; 
+    color: white;
+    border-radius: 1.5em; 
+    padding: .5em 2em;
+    font-size: 1.2em;
+    margin-top: -15em; 
+    border-color: #053321;
+    text-decoration: none;
+}
+.inicio .banner-principal .banner .flecha{
+    padding-left: .2em;
+    font-size:20px; 
+    padding-left: .2em;
+}
+.inicio .banner-hojas .banner{
+    background-image: url('../image/bannerHojas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 40em;
+}
+.inicio .banner-hojas .banner .titulo{
+    color: white; 
+    font-size: 3.3em;
+    font-family: Bellbold;
+    line-height: 1em;
+}
+.inicio .banner-hojas .banner .subtitulo{
+    color: white; 
+    font-size: 3.3em;
+    font-family: BellItalica;
+    padding-top: 1em;
+}
+.inicio .banner-hojas .banner .letra {
+    color: white;
+    font-size: 1.4em;
+}
+.inicio .banner-hojas .banner-torre img{
+    width: 100%; 
+    height: 55em;
+    object-fit: cover;
+}
+.inicio .banner-hojas .letrero{
+    padding: 7em 0;
+}
+.inicio .banner-hojas .letrero .titulo{
+    color: black; 
+    font-size: 2.5em; 
+    margin: 0; 
+    padding: 0 1em;
+    font-family: Bellbold;
+    line-height: 1em;
+}
+.inicio .banner-hojas .letrero .subtitulo{
+    color: black; 
+    font-size: 1.9em;
+    padding: 1em 6em; 
+    margin: 0;
+    line-height: 1em;
+}
+.inicio .iconos .background-icono{
+    background-image: url('../image/bannerHojas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 0 0 3em 0;
+}
+.inicio .carousel{
+    background-image: url('../image/bannerHojas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding-bottom: 6em;
+}
+.inicio .iconos .container{
+    width: 13em;
+}
+.inicio .iconos .container .sub-container{
+    width: 25em; 
+    height: 20em;
+    background-color: #E6E6E6; 
+    border-radius: 1em;
+}
+.inicio .iconos .container .sub-container img{
+    width: 15em; 
+    height: 15em;
+    opacity: 0.8; 
+    transform: scale(1.15); 
+    transition: transform 0.5s, opacity 0.5s;
+}
+.inicio .iconos .sub-container img:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+.inicio .container{
+    margin: 3em 0;
+}
+.inicio .container .video img{
+    width: 50em; 
+    height: 25em; 
+    object-fit: cover;
+}
+.uk-dotnav>*> a {
+    width: 2em;
+    height: 2em;
+    background-color: #053321;
+}
+/* Estilos footer */
+footer .container{
+    height: 55em;
+}
+footer .container .banner{
+    background-image: url('../image/foto15.png'); 
+    height: 55em; 
+    object-fit: cover;
+}
+footer .container .banner .container-logo img{
+    width: 10em; 
+    margin-top: -6em;
+}
+footer .container .banner .container-logo p{
+    font-size: 4em; 
+    color: white;
+}
+footer .container .banner .informacion{
+    padding-top: 12em;
+}
+footer .container .informacion .raya{
+    border-left: solid #8B835D .4em;
+}
+footer .container .informacion .oficina .p1{
+    color: white; 
+    font-weight: bold;
+    font-family: BellItalica;
+    font-size: 1.5em;
+}
+footer .container .informacion .oficina .p2{
+    color: white; 
+    font-family: BellItalica;
+    font-size: 1.5em;
+}
+/* footer .container .informacion .raya{
+    margin-top: 0.8em;
+} */
+footer .container .informacion .raya hr{
+    border: solid 2px #8B835D; 
+    width: 20em; 
+    margin-left: 17em;
+}
+footer .container .informacion .phone p{
+    color: white;
+    font-size: 1.4em;
+    font-family: Bellbold;
+}
+footer .container .informacion .phone p i{
+    font-size:24px
+}
+footer .container .informacion .direccion{
+    margin-top: 1em;
+}
+footer .container .informacion .direccion p{
+    color: white; 
+    font-size: 1.5em;
+    font-family: Bellbold;
+}
+footer .container .informacion .reporte img{
+    padding: 6em 4em 0 0;
+}
+footer .container .aviso{
+    background-color: #19150F; 
+    padding: 2em;
+}
+footer .container .aviso p{
+    color: white; 
+    margin:0;
+    font-family: Bellbold;
+}
+
+/* ESTILOS SECCION 2 GALERIA */
+
+    .galeria .banner-principal .banner{
+    background-image: url('../image/bannerGaleria.jpg'); 
+    height: 60em;
+    }
+    .galeria .banner-principal .banner a{
+        background-color: #053321;
+        color: white;
+        border-radius: 1.5em;
+        padding: 0.2em 2em;
+        font-size: 1.2em;
+        margin-top: 41em;
+        border-color: #053321;
+        text-decoration: none;
+    }
+    .galeria .banner-principal .banner .flecha {
+        font-size: 20px;
+        padding-left: 0.2em;
+    }
+    .galeria .banner-hojas .banner{
+    background-image: url('../image/bannerHojas.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 40em;
+    }
+    .galeria .banner-hojas .banner .titulo{
+        color: white; 
+        font-size: 3.3em;
+        font-family: Bellbold;
+    }
+    .galeria .imagenes{
+        padding: 1em;
+    }
+    .galeria .imagenes .t1-30{
+        height: 30em;
+    }
+    .galeria .imagenes .t1-30 .primer{
+        height: 30em;
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-25{
+       height: 25em;
+    }
+    .galeria .imagenes .t1-25 .primer-2{
+        height: 25em;
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-25{
+        height: 25em;
+    }
+    .galeria .imagenes .t1-35{
+        height: 35em;
+        margin-top: -5em;
+    }
+    .galeria .imagenes .t1-25 .segundo1{
+        height: 25em;
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-35 .segundo2{
+        height: 35em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-35 .tercer{
+        height: 35em;
+         width: 100%; 
+         object-fit: cover;
+    }
+    .galeria .imagenes .t1-25 .tercer{
+        height: 25em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-25 .cuarto{
+        height: 25em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-35-dist {
+        height: 30em;
+        margin-top: -5em;
+    }
+    .galeria .imagenes .t1-35-dist img{
+        height: 30em;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .galeria .imagenes .t1-35 .cuarto{
+        height: 35em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-35 .quinto{
+        height: 35em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .galeria .imagenes .t1-30 .quinto{
+        height: 30em; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    .modal .container{
+        max-height: 50em; 
+        background-color: white;
+    }
+    .modal .container i{
+        font-size:36px; 
+        color: black;
+        cursor: pointer;
+    }
+    .modal .container img{
+        height: 46em; 
+        width: 100%;
+        object-fit: cover;
+    }
+    .modal .container .flechas{
+        position:absolute;
+        top: 50%; 
+        width: 90em;
+    }
+    .modal .container .flechas .derecha{
+        margin-left: 28.5em;
+    }
+
+    /* ESTILOS SECCION 3 FORMULARIO */
+
+    .formulario .banner-principal .banner{
+        background-image: url('../image/bannerReportes.jpg'); 
+        height: 60em;
+        }
+        .formulario .banner-principal .banner a{
+            background-color: #053321;
+            color: white;
+            border-radius: 1.5em;
+            padding: 0.5em 2em;
+            font-size: 1.2em;
+            margin-top: 35em;
+            border-color: #053321;
+            text-decoration: none;
+        }
+        .formulario .banner-principal .banner .flecha {
+            font-size: 20px;
+            padding-left: 0.2em;
+        }
+        .formulario .container-formulario h5{
+            text-align: justify; 
+            font-size: 1.7em; 
+            padding: 3em 0; 
+            color: black;
+        }
+        .formulario .container-formulario .contenido{
+            background-color: #E6E6E6; 
+            padding-right: 2.3em; 
+            border-radius: 2em; 
+            padding: 2em 2.3em 2em 0
+        }
+        .formulario .container-formulario .contenido h1{
+            color: #053321; 
+            font-weight: bold; 
+            font-size: 3em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido h3{
+            background-color: #8B835D; 
+            margin: 0 8em; 
+            color: white; 
+            font-weight: bold;
+            font-size: 2em; 
+            padding: .2em 0;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .input label{
+            color: black; 
+            font-size: 1.5em; 
+            padding-bottom: .2em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .input input{
+            border-radius: 1em; 
+            background-color: #F2F2F2; 
+            height: 3em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .descripcion label{
+            color: black; 
+            font-size: 1.5em; 
+            padding-bottom: .2em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .descripcion input{
+            border-radius: 1em; 
+            background-color: #F2F2F2; 
+            height: 3em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .detalle label{
+            color: black; 
+            font-size: 1.5em; 
+            padding-bottom: .2em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .label{
+            color: black; 
+            font-size: 1.5em; 
+            padding-bottom: .2em;
+            font-family: BellItalica;
+        }
+        .formulario .container-formulario .contenido .detalle textarea{
+            border-radius: 1em; 
+            background-color: #F2F2F2;
+        }
+        .formulario .container-formulario .contenido .detalle .adjunte{
+            height: 3em;
+        }
+        .formulario .container-formulario .contenido .detalle .adjunte input{
+            margin-top: 1em;
+        }
+        .formulario .container-formulario .boton button{
+            background-color: #8B835D; 
+            color: white; 
+            border-radius: .5em; 
+            padding: .3em 4em; 
+            font-size: 1.9em;
+            font-family: BellItalica;
+        }
+        .footer-formulario{
+            margin-top: 6em;
+        }
+
+       @media screen and (min-width: 1281px) and (max-width: 1366px){
+            .inicio .banner-principal .video {
+                height: 38em;
+            }
+            .inicio .banner-principal .banner a{
+                font-size: 1em;
+                padding: 0.2em 1em;
+            }
+            .inicio .banner-principal .letrero p{
+                margin-top: -11em;
+                font-size: 1em;
+            }
+            .inicio .banner-hojas .banner .subtitulo{
+                font-size: 2.3em;
+            }
+            .inicio .banner-principal {
+                margin-bottom: 2.2em;
+            }
+            .inicio .banner-principal .banner a{
+                margin-top: -10em;
+                padding: 0.5em;
+            }
+            .inicio .banner-hojas .banner{
+                height: 25em;
+            }
+            .inicio .banner-hojas .banner .letra {
+                font-size: 1em;
+            }
+            .inicio .banner-hojas .banner .titulo{
+                font-size: 2.5em;
+            }
+            .inicio .banner-hojas .banner-torre img{
+                height: 35em;
+            }
+            .inicio .banner-hojas .letrero .titulo{
+                font-size: 2em;
+            }
+            .inicio .banner-hojas .letrero .subtitulo {
+                color: black;
+                font-size: 1.5em;
+            }
+            .inicio .iconos .container {
+                width: 19em;
+            }
+            .inicio .iconos .container .sub-container {
+                width: 20em;
+                height: 16em;
+            }
+            .inicio .iconos .container .sub-container img {
+                width: 10em;
+                height: 10em;
+            }
+            footer .container{
+                max-height: 50em;
+            }
+            footer .container .banner{
+                height: 50em;
+            }
+            footer .container .banner .informacion{
+                padding-top: 5em;
+            }
+            footer .container .informacion .phone p {
+                font-size: 1.2em;
+            }
+            footer .container .informacion .raya hr{
+                margin-left: 8em;
+            }
+            footer .container .informacion .direccion p{
+                font-size: 1.3em;
+            }
+            footer .container .informacion .oficina .p2 {
+                font-size: 1.4em;
+            }
+            footer .container .banner .container-logo p {
+                font-size: 3em;
+            }
+            footer .container .aviso p {
+                font-size: 1em;
+            }
+            /* Galeria */
+            .galeria .banner-principal .banner{
+                height: 40em;
+            }
+            .galeria .banner-principal .banner a{
+                font-size: 1em;
+                margin-top: 27em;
+            }
+            .galeria .banner-hojas .banner{
+                height: 25em;
+            }
+            .modal .container {
+                max-height: 35em;
+            }
+            .modal .container img {
+                height: 35em
+            }
+            /* Formulario */
+            .formulario .banner-principal .banner {
+                height: 40em;
+            }
+            .formulario .banner-principal .banner a {
+                font-size: 1em;
+                margin-top: 27em;
+            }
+            .formulario .container-formulario h5 {
+                font-size: 1.5em;
+            }
+            .formulario .container-formulario h5{
+                padding: 2em 0;
+            }
+            .formulario .container-formulario .contenido h3{
+                margin: 0 3em;
+            }
+            .formulario .container-formulario .boton button{
+                padding: 0.2em 2em;
+                font-size: 1.8em;
+            }
+            .formulario .container-formulario .contenido{
+                padding: 2em 0.3em 2em 0;
+            }
+
+        } 
+
+        @media screen and (min-width: 601px) and (max-width: 1280px){
+            .inicio .banner-principal .video {
+                height: 38em;
+            }
+            .inicio .banner-principal .banner a{
+                font-size: 1em;
+                padding: 0.5em 1em;
+            }
+            .inicio .banner-principal .letrero p {
+                margin-top: -23em;
+                font-size: 1.1em;
+                padding: 0 0.3em;
+            }
+            .inicio .banner-principal .banner .flecha {
+                font-size: 25px;
+            }
+            .inicio .banner-hojas .banner{
+                height: 30em;
+            }
+            .inicio .banner-hojas .banner .titulo {
+                font-size: 2.4em;
+            }
+            .inicio .banner-hojas .banner .subtitulo {
+                font-size: 2.5em;
+            }
+            .inicio .banner-hojas .banner .letra {
+                color: white;
+                font-size: 1.1em;
+            }
+            .inicio .banner-hojas .banner-torre img {
+                height: 35em;
+            }
+            .inicio .banner-hojas .letrero .titulo {
+                font-size: 1.8em;
+            }
+            .inicio .banner-hojas .letrero .subtitulo {
+                font-size: 1.5em;
+            }
+            footer .container .informacion .direccion p {
+                font-size: .8em;
+            }
+            footer .container .aviso {
+                padding: 0em;
+            }
+            footer .container .informacion .oficina .p2{
+                font-size: 1.4em;
+            }
+            footer .container .informacion .phone p {
+                font-size: 1.2em;
+            }
+            footer .container .banner .container-logo p {
+                font-size: 3em;
+            }
+            footer .container .informacion .direccion p {
+                font-size: 1.3em;
+            }
+            .inicio .iconos .container {
+                width: 20em;
+            }
+            .inicio .iconos .container .sub-container {
+                width: 15em;
+                height: 15em;
+            }
+            .inicio .iconos .container .sub-container img {
+                width: 8em;
+                height: 8em;
+            }
+            footer .container {
+                height: 50em;
+            }
+            footer .container .banner {
+                height: 51em;
+            }
+            footer .container .informacion .raya hr {
+                width: 14em;
+                margin-left: 9em;
+            }
+            .galeria .banner-principal .banner {
+                height: 45em;
+            }
+            .galeria .banner-hojas .banner {
+                height: 30em;
+            }
+            .galeria .banner-principal .banner a{
+                margin-top: 29em;
+            }
+            
+            .formulario .banner-principal .banner {
+                height: 45em;
+            }
+            .formulario .banner-principal .banner a {
+                margin-top: 30em;
+            }
+            .formulario .container-formulario .contenido h3 {
+                margin: 0 3em;
+            }
+            .formulario .container-formulario .contenido .input label {
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .contenido .descripcion label {
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .contenido .detalle label {
+                font-size: 1.5em;
+            }
+            .formulario .container-formulario .contenido .label {
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .boton button {
+                padding: 0.3em 2em;
+            }
+            footer .container .banner .container-logo img {
+                width: 8em;
+            }
+            footer .container .banner .informacion {
+                padding-top: 4em;
+            }
+            .modal .container {
+                max-height: 40em
+            }
+            .modal .container img {
+                height: 40em;
+            }
+        }
+
+        /* MOBILE SECCION INICIO */
+        @media(max-width: 600px) {
+            .inicio .banner-principal .banner {
+                height: 0em;
+                margin: 0;
+            }
+            .inicio .banner-principal {
+                margin-bottom: 0em;
+            }
+            .inicio .banner-principal .video {
+                height: 13em;
+            }
+            .inicio .banner-principal .banner a {
+                font-size: .6em;
+                margin-top: -7em;
+            }
+            .inicio .banner-principal .banner a{
+                padding: 0.2em 1em;
+            }
+            .inicio .banner-principal .letrero p {
+                font-size: 1em;
+                margin-top: -9em;
+            }
+            .inicio .banner-principal .banner .flecha {
+                font-size: 15px;
+            }
+            .inicio .banner-hojas .banner {
+                height: 15em;
+            }
+            .inicio .banner-hojas .banner .letra {
+                font-size: .6em;
+                padding: 0 0 0 3.3em;
+            }
+            .inicio .banner-hojas .banner .titulo {
+                font-size: 1em;
+                padding-left: 1.5em;
+            }
+            .inicio .banner-hojas .banner .subtitulo {
+                font-size: 1em;
+                padding: 1em 2em 0 3.9em;
+            }
+            .inicio .banner-hojas .banner-torre img {
+                height: 20em;
+            }
+            .inicio .banner-hojas .letrero .titulo {
+                font-size: 1em;
+                padding: 0.2em 0em 0.2em 2em;
+            }
+            .inicio .banner-hojas .letrero .subtitulo {
+                font-size: 0.6em;
+                line-height: 1em;
+                padding: 1em 2em 2em 4em;
+            }
+            .inicio .banner-hojas .letrero {
+                padding: 2em 0 0 0;
+            }
+            .inicio .iconos .container .sub-container {
+                width: 12em;
+                height: 12em;
+            }
+            .inicio .iconos .container .sub-container img {
+                width: 7em;
+                height: 7em;
+            }
+            .inicio .iconos .background-icono {
+                padding: 0;
+            }
+            .inicio .iconos .background-icono {
+                padding: 2em 0 0 0;
+            }
+            .inicio .carousel {
+                padding-bottom: 1em;
+            }
+            .inicio .iconos .container {
+                margin: 0;
+                padding: 0;
+            }
+            footer .container .banner {
+                background-image: url(../image/foto15.png);
+                height: 60em;
+            }
+            footer .container .banner .container-logo img {
+                width: 8em;
+                margin-top: -9em;
+            }
+            footer .container .banner .container-logo p {
+                font-size: 2em;
+            }
+            footer .container .banner .informacion {
+                padding-top: 0em;
+            }
+            footer .container .informacion .raya hr {
+                border: solid 0px #8B835D;
+                width: 0em;
+                margin-left: 0em;
+            }
+            footer .container .informacion .reporte img {
+                padding: 0em 9em 0 0;
+            }
+            footer .container .aviso {
+                padding: 0em;
+            }
+            footer .container .aviso p {
+                font-size: .7em;
+                padding-left: 3em;
+            }
+            .footer-formulario {
+                margin-top: 3em;
+            }
+            footer .container .informacion .oficina .p1{
+                font-size: 1em;
+                width: 9em;
+            }
+            footer .container .informacion .oficina .p2{
+                font-size: .9em;
+            }
+            footer .container .informacion .phone p {
+                font-size: 1.2em;
+            }
+            footer .container .informacion .direccion p {
+                font-size: 1em;
+                padding-right: 2em;
+            }
+            footer .container .informacion .raya {
+                margin-right: 8em;
+                border-left: none;
+            }
+            footer .container .informacion .oficina{
+                margin-left: 9em;
+            }
+            /* MOBILE PARA SECCION GALERIA */
+            .galeria .banner-principal .banner {
+                height: 20em;
+                margin-left:2em;
+            }
+            .galeria .banner-principal .banner a{
+                font-size: .6em;
+                margin-top: 21em;
+                padding: 0em 0.8em;
+            }
+            .galeria .banner-principal .banner .flecha{
+                padding-left: .5em;
+                font-size: 20px;
+            }
+            .galeria .banner-hojas .banner {
+                height: 15em;
+                margin: 0;
+            }
+            .galeria .banner-hojas .banner .titulo {
+                font-size: 3em;
+            }
+            .galeria .imagenes .t1-35 {
+                margin-top: 1em;
+            }
+            .modal .container {
+                max-height: 30em;
+            }
+            .modal .container img {
+                height: 30em
+            }
+            .modal .container .flechas .derecha {
+                margin-left: 13.5em;
+            }
+            .galeria .imagenes .t1-25 .cuarto {
+                height: 19em;
+            }
+            /* MOBILE PARA SECCION FORMULARIO */
+            .formulario .banner-principal .banner {
+                height: 20em;
+                margin-left: 2em;
+            }
+            .formulario .banner-principal .banner a{
+                font-size: .8em;
+                margin-top: 17em;
+            }
+            .formulario .container-formulario h5 {
+                font-size: 1em;
+                padding: 2em 1em;
+            }
+            .formulario .container-formulario .contenido h1 {
+                font-size: 1.5em;
+            }
+            .formulario .container-formulario .contenido h3 {
+                background-color: #8B835D;
+                margin: 1em 1em;
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .contenido .input label {
+                font-size: 1.3em;
+                padding-left: 1em;
+            }
+            .formulario .container-formulario .contenido {
+                padding: 2em 1em 2em 1em;
+                border-radius: 0;
+            }
+            .formulario .container-formulario .contenido .descripcion label {
+                font-size: 1.3em;
+                padding-left: 1em;
+            }
+            .formulario .container-formulario .contenido .detalle label {
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .contenido .label {
+                font-size: 1.3em;
+            }
+            .formulario .container-formulario .boton button {
+                padding: 0.3em 2em;
+                font-size: 1.5em;
+            }
+        }
+
+        .uk-slidenav{
+            width: 3em;
+            height: 3em;
+        }
+        .uk-icon>*{
+            height: 3em;
+            width: 3em;
+            color: black;
+        }
+     
